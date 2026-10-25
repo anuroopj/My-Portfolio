@@ -1,22 +1,17 @@
-# My-Portfolio
-Welcome to my portfolio! 👋
-I’m a 2nd-year Computer Science student passionate about learning and building software. This repository showcases my coding projects, skills, and learning journey.
+# Anuroop Jayan — Personal Portfolio
 
-Projects:
-1. The Apple Store Problem
+## Files
+- `index.html` — page structure and content
+- `css/style.css` — styles and responsive rules
+- `js/script.js` — navigation, scroll effects, email-copy action, and contact-form behavior
+- `assets/images/` — images (currently empty)
+- `assets/icons/` — icons (currently empty)
+- `assets/resume.pdf` — place your resume PDF here if you want to link it
 
-An object-oriented program simulating a simplified app store. The system manages app listings, user accounts, downloads, and user-submitted ratings. This project helped me practice organizing data and applying core OOP concepts.
+## Before publishing
+1. Replace the placeholder GitHub, LinkedIn, email, and resume links with your real details.
+2. The contact form currently uses the Google Apps Script endpoint that was present in the original HTML. Test it after deployment.
+3. The form uses `fetch` with `mode: "no-cors"`, so the browser cannot verify the server's response. Its success message is therefore not proof that delivery succeeded.
+4. The footer year is still the original value from the supplied HTML.
 
-2. The Vaccine Tracker Problem
-
-A program modeling a vaccination tracking system. It manages vaccine distribution, patient records, and generates proof of vaccination. This project strengthened my skills in modular program design and object-oriented programming.
-
-Skills:
-Programming Languages: Java, Python
-
-Concepts: Object-Oriented Programming (OOP), Data Structures
-
-Development: Front-end and Back-end fundamentals, Full-Stack development practice
-
-Contact:
-You can reach me at: anuroop239@gmail.com
+Open `index.html` locally or deploy the folder to your static hosting provider.
